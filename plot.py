@@ -18,8 +18,8 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 
-FILE = "hko-daily-mean-temperature-2026.csv"   # CHANGE ME: the same name as in fetch.py
-PICTURE = "plot.png"                           # what goes into out/, and into the README
+FILE = "Global Temperature Anomalies.csv"   # CHANGE ME: the same name as in fetch.py
+PICTURE = "ENSO.png"                           # what goes into out/, and into the README
 
 HERE = Path(__file__).parent
 DATA = HERE / "data" / FILE
